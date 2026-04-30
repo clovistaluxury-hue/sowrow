@@ -301,19 +301,9 @@ body {
 @media (max-width: 768px) {
     .hero-title { font-size: 3.5rem; }
     .hero-text-overlay h2 { font-size: 2rem; }
-    
-    /* Reduce hero watch image size on phones */
-    #hero-sequence-img {
-        object-fit: contain;
-        transform: scale(0.85);
-    }
-
     .details-container { grid-template-columns: 1fr; text-align: center; }
     .detail-heading { font-size: 2.5rem; }
     .feature-title { font-size: 3rem; }
     .pricing-grid { grid-template-columns: 1fr; }
     .nav-links { display: none; }
-    
-    /* Reduce pricing image height on phones */
-    .price-img-container { height: 280px; }
 }
